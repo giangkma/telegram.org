@@ -1,0 +1,212 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+not all,
+not all,
+not all {
+    .tl_main_logo_title_image {
+        background-image: url(./img/Telegram_2x.png);
+        background-size: 144px 36px;
+    }
+    
+}
+
+/* ==============320px============== */
+
+/* ==============480px============== */
+@media (max-width: 480px) {
+    .navbar-tg .container {
+        padding: 0;
+    }
+    
+    .tl_main_logo_wrap {
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+    
+    .tl_main_logo_lead {
+        font-size: 16px;
+        max-width: 224px;
+    }
+    
+    img.tl_main_logo {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .tl_page_wrap {
+        left: 0;
+    }
+    
+    .footer_column_telegram {
+        padding-right: 50px;
+    }
+}
+
+
+/* ====================640px=========== */
+
+@media (max-width: 640px) {
+    .tl_main_download_link_android {
+        background-size: 196px 183px;
+    }
+    
+    .tl_main_download_link_td {
+        width: 100%;
+        padding-top: 180px;
+    }
+    
+    .tl_main_download_link_osx {
+        display: none;
+    }
+    
+    h3.tl_main_download_desktop_header {
+        display: none;
+    }
+    
+    .tl_main_wrap h3 {
+        margin-top: -20px;
+    }
+    
+    .tl_main_download_desktop {
+        background-image: url(./img/SiteTDesktop_2x.jpg);
+        background-size: 320px 157px;
+    }
+    
+    .tl_main_download_link_wp {
+        background-size: 201px 167px;
+        background-position: 50% 14px;
+    }
+    
+    .tl_main_download_link_tdesktop {
+        display: block;
+        padding-top: 156px;
+        height: 188px;
+    }
+    
+    .tl_main_download_link_ios {
+        background-size: 300px 183px;
+    }
+    
+    .tl_main_download_more_btn {
+        display: inline-block;
+    }
+    
+    .tl_main_download_link {
+        width: auto;
+        min-width: 0;
+        display: block;
+        padding-top: 165px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 190px;
+    }
+    
+    .tl_main_download_link .icon {
+        display: none;
+    }
+}
+
+@media (min-width: 1px) {
+    .navbar-right {
+        float: right !important;
+    }
+    
+    .navbar-nav>li {
+        float: left;
+    }
+    
+    .navbar-nav>li>a {
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .tl_main_side_blog .side_blog_wrap {
+        position: static;
+        margin: 22px 0 0 16px;
+        padding: 0 10px 0 15px;
+        border-width: 4px;
+        border-color: #3faee8;
+    }
+    
+    .side_blog_wrap {
+        width: auto;
+    }
+    
+    .footer_desktop {
+        display: none;
+    }
+    
+    .footer_mobile {
+        display: block !important;
+    }
+    
+    .footer_mobile .footer_column {
+        display: inline-block;
+        float: none;
+        width: auto;
+        padding: 0 8px;
+    }
+    
+    .footer_mobile .footer_column h5 {
+        color: #08c;
+        font-size: 12px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    .footer_wrap {
+        text-align: center;
+    }
+    
+    .footer_mobile .footer_column h5 a {
+        color: inherit;
+    }
+    
+}
+
+
+
+@media (min-width: 640px) {
+    .tl_main_download_desktop_links {
+        width: 595px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    
+    .tl_main_card_cell,
+    .tl_main_card_cell_last {
+        width: 50%;
+        float: left;
+    }
+    
+    .tl_main_card_cell_last {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    
+    .tl_main_card_cell,
+    .tl_main_card_cell_last {
+        width: 33.33333%;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
